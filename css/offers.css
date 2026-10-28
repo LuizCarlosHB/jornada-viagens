@@ -1,0 +1,76 @@
+.card {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.card header p {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
+
+.card header h3 {
+  color: var(--text-secondary-color);
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin-top: 8px 0 0;
+}
+
+.card h3 span {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin-top: 24px;
+}
+
+.card.japao {
+  background: url("../img/bn-card-japao.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card.san-andreas {
+  background-image: url("../img/bn-card-san-andreas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card.paraiba {
+  background-image: url("../img/bn-card-paraiba.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card.manaus {
+  background-image: url("../img/bn-card-manaus.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card h3 span {
+    font-size: 40px;
+  }
+}

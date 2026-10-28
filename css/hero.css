@@ -6,10 +6,24 @@
   width: 100%;
 }
 
+.hero-title {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-primary-color);
+  padding: 88px 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .hero-image {
     background-image: url("../img/hero-tablet.jpg");
     height: 620px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+    padding: 80px 60px;
   }
 }
 
@@ -18,5 +32,15 @@
     background-image: url("../img/hero-desktop.jpg");
     height: 620px;
     background-size: cover;
+  }
+
+  .hero-title {
+    padding: 80px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-title {
+    padding: 80px 160px;
   }
 }

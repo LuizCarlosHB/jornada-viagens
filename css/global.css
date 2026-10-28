@@ -56,3 +56,24 @@ h6 {
   font-weight: var(--title-weight);
   color: var(--text-primary-color);
 }
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  margin: 0 auto 24px auto;
+}
+
+.divider {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2{
+    font-size: 32px;
+  }
+}

@@ -20,10 +20,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -105,9 +101,32 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2560px) {
+  section.offers {
+    width: 96%;
+    max-width: 2400px;
+  }
   .offers-cards {
-    width: 1250px;
-    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+
+    width: 96%;
+    max-width: 2400px;
+
+    margin: 48px auto 88px;
+  }
+
+  .offers-cards .card {
+    width: 100%;
+    height: 350px;
+  }
+
+  .offers-cards .card header h3 {
+    font-size: 52px;
+  }
+
+  .offers-cards .card h3 span {
+    font-size: 44px;
   }
 }

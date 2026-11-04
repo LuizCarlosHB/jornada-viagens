@@ -1,0 +1,127 @@
+.destinations {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.destinations .item-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations .item-image.tokyo {
+  background: url(../img/bn-tokyo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations .item-image.osaka {
+  background: url(../img/bn-osaka.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations .item header {
+  margin-bottom: 24px;
+}
+
+.destinations .item p {
+  margin: 0;
+}
+
+.destinations .button {
+  width: 100%;
+  text-align: center;
+  margin: 24px auto 40px;
+}
+
+.destinations h4 {
+  font-size: 24px;
+  margin: 24px auto 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations {
+    width: 648px;
+  }
+
+  .destinations .item-image {
+    width: 100%;
+    height: 452px;
+  }
+
+  .destinations .item-image.tokyo {
+    background: url(../img/bn-tokyo-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .destinations .item-image.osaka {
+    background: url(../img/bn-osaka-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .destinations .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinations {
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  .destinations-items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin: 24px auto 40px;
+  }
+
+  .destinations .item {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .destinations .item-image {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  section.destinations {
+    width: 90%;
+    max-width: 2400px;
+  }
+
+  .destinations-items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px;
+    margin: 24px auto 40px;
+  }
+
+  .destinations .item-image {
+    width: 100%;
+    height: 648px;
+  }
+
+  .destinations .item p {
+    font-size: 20px;
+  }
+
+  .destinations .item h4 {
+    font-size: 34px;
+  }
+}

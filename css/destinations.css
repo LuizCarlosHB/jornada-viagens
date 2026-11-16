@@ -44,7 +44,6 @@
 }
 
 .destinations h4 {
-  font-size: 24px;
   margin: 24px auto 24px;
 }
 
@@ -117,11 +116,7 @@
     height: 648px;
   }
 
-  .destinations .item p {
-    font-size: 20px;
-  }
-
-  .destinations .item h4 {
-    font-size: 34px;
+  .destinations p {
+    font-size: 28px;
   }
 }

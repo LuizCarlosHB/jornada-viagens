@@ -19,6 +19,11 @@
   border-radius: 16px;
 }
 
+.categories-cards .card:hover {
+  background-color: lightgrey;
+  box-shadow: 0 0 10px darkgray;
+}
+
 .categories-cards .card h3 {
   font-size: 28px;
   font-weight: var(--title-weight);

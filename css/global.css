@@ -101,6 +101,19 @@ section.hero {
   margin: 0;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 auto 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  margin: 0 auto 24px;
+}
+
 @media screen and (min-width: 768px) {
   .section-title {
     width: 100%;

@@ -1,0 +1,120 @@
+.payments {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.image-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-bottom: 88px;
+}
+
+.payments .image-content .image-pay.bag {
+  background: url("../img/img-bag.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-content .image-pay.passport {
+  background: url("../img/img-passport.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-content .image-pay.people {
+  background: url("../img/img-people.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: span 2;
+  height: 182px;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: auto;
+    margin: 20px 60px;
+  }
+
+  .image-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: auto;
+  }
+
+  .payments .image-content .image-pay.bag {
+    background: url("../img/img-bag-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 254px;
+  }
+
+  .payments .image-content .image-pay.passport {
+    background: url("../img/img-passport-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 254px;
+  }
+
+  .payments .image-content .image-pay.people {
+    background: url("../img/img-people-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: span 2;
+    height: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+      "title title"
+      "text image";
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    grid-area: title;
+  }
+
+  .text-content {
+    grid-area: text;
+  }
+
+  .image-content {
+    grid-area: image;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments {
+    max-width: 1200px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .payments {
+    max-width: 2560px;
+    width: 90%;
+    margin: 0 120px;
+  }
+
+  .content-text {
+    font-size: 28px;
+  }
+}

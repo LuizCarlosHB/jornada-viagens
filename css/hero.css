@@ -15,6 +15,14 @@
   text-align: center;
 }
 
+.hero-image-footer {
+  background-image: url("../img/hero-footer-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .hero-image {
     background-image: url("../img/hero-tablet.jpg");
@@ -24,6 +32,10 @@
   .hero-title {
     font-size: 32px;
     padding: 80px 60px;
+  }
+
+  .hero-image-footer {
+    background-image: url("../img/hero-footer-tablet.jpg");
   }
 }
 
@@ -37,10 +49,20 @@
   .hero-title {
     padding: 80px 120px;
   }
+
+  .hero-image-footer {
+    background-image: url("../img/hero-footer-desktop.jpg");
+    height: 620px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero-title {
     padding: 80px 160px;
+  }
+
+  .hero-image-footer {
+    background-image: url("../img/hero-footer-desktop.jpg");
+    height: 920px;
   }
 }

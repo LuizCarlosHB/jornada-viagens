@@ -36,6 +36,36 @@
   height: 182px;
 }
 
+.payments .image-content .image-pay.japan1 {
+  background: url("../img/img-japan1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-content .image-pay.japan2 {
+  background: url("../img/img-japan2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 254px;
+}
+
+.payments .image-content .image-pay.japan3 {
+  background: url("../img/img-japan3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: span 2;
+  height: 182px;
+}
+
+.content-title.value {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
 @media screen and (min-width: 768px) {
   .payments {
     width: auto;
@@ -67,6 +97,31 @@
 
   .payments .image-content .image-pay.people {
     background: url("../img/img-people-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: span 2;
+    height: 182px;
+  }
+
+  .payments .image-content .image-pay.japan1 {
+    background: url("../img/img-japan1-tablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 254px;
+  }
+
+  .payments .image-content .image-pay.japan2 {
+    background: url("../img/img-japan2-tablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 254px;
+  }
+
+  .payments .image-content .image-pay.japan3 {
+    background: url("../img/img-japan3-tablet.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
